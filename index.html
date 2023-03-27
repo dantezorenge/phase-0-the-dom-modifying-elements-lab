@@ -6,7 +6,11 @@
   <script type="application/javascript">
   </script>
   <body>
-    <main id="main"></main>
+const main = document.querySelector('main');
+main.remove();const newHeader = document.createElement("h1");
+newHeader.setAttribute('id', 'victory');
+newHeader.textContent = "Daniel Orenge is the champion";
+document.body.append(newHeader);
     <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
